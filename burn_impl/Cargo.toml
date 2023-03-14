@@ -1,0 +1,13 @@
+[package]
+name = "burn_impl"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+burn = { git = "https://github.com/burn-rs/burn", branch = "fix/batch-norm" }
+burn-tch = { git = "https://github.com/burn-rs/burn", branch = "fix/batch-norm" }
+burn-autodiff = { git = "https://github.com/burn-rs/burn", branch = "fix/batch-norm" }
+
+serde = "1.0.152"
